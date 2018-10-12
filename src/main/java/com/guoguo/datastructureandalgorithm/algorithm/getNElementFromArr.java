@@ -11,12 +11,13 @@ import java.util.List;
  **/
 public class getNElementFromArr {
 
-    private static List<List<Integer>> arrList = new ArrayList<>();
+//    private static List<List<Integer>> arrList = new ArrayList<>();
 
     public static void main(String[] args) {
         int[] arr = {1 , 2 , 3};
         int[] result = new int[2] ;
-        combine_increase(arr,0, result , 2 , 2 , arr.length);
+        List<List<Integer>> arrList = new ArrayList<>();
+        combine_increase(arr,0, result , 2 , 2 , arr.length , arrList);
         System.out.println(arrList);
     }
 
@@ -29,7 +30,7 @@ public class getNElementFromArr {
      * @param num       要选取的元素个数
      * @param arr_len   数组长度
      */
-    public static void combine_increase(int[] arr, int start, int[] result, int count, int num, int arr_len){
+    public static void combine_increase(int[] arr, int start, int[] result, int count, int num, int arr_len , List<List<Integer>> arrList ){
         int i = 0;
         for (i = start; i < arr_len + 1 - count; i++){
             ArrayList<Integer> list = new ArrayList<>();
@@ -41,7 +42,7 @@ public class getNElementFromArr {
                       list.add(arr[result[j]]);
                 }
             }else {
-                combine_increase(arr, i + 1, result, count - 1, num , arr_len);
+                combine_increase(arr, i + 1, result, count - 1, num , arr_len  , arrList);
             }
             if (list.size() > 0){
                 arrList.add(list);

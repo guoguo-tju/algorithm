@@ -1,4 +1,4 @@
-package com.guoguo.datastructureandalgorithm.algorithm;
+package com.guoguo.datastructureandalgorithm;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
