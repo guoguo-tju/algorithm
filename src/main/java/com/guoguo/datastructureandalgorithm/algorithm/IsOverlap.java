@@ -6,7 +6,7 @@ package com.guoguo.datastructureandalgorithm.algorithm;
  * @author: Karl Guo
  * @create: 2018-10-12 16:00
  **/
-public class isOverlap {
+public class IsOverlap {
 
 
     public static void main(String[] args) {
@@ -14,9 +14,8 @@ public class isOverlap {
         int[] arr1 = {1, 100};
         int[] arr2 = {30, 50};
 
-        Boolean b = isOverlap(arr1 , arr2);
+        Boolean b = isOverlap(arr1, arr2);
         System.out.println(b);
-
     }
 
     private static Boolean isOverlap(int[] arr1, int[] arr2) {

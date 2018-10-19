@@ -9,7 +9,7 @@ import java.util.List;
  * @author: Karl Guo
  * @create: 2018-10-12 13:50
  **/
-public class getNElementFromArr {
+public class GetNElementFromArr {
 
 //    private static List<List<Integer>> arrList = new ArrayList<>();
 
