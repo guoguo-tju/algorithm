@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+
+    <!--maven命令： mvn mybatis-generator:generate-->
+
+    <!-- 数据库驱动包位置 (需要根据自己的路径修改)-->
+    <classPathEntry location="D:\gzr\work\maven-3.3.9\maven_repository\mysql\mysql-connector-java\5.1.34\mysql-connector-java-5.1.34.jar"/>
+
+    <context id="Tables" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <!-- 数据库链接URL、用户名、密码 （定制修改）-->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://***"
+                        userId="***" password="***"/>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <!-- 实体类 -->
+        <javaModelGenerator targetPackage="com.zichan360.fica.bean"
+                            targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <!-- Mapper文件 -->
+        <!--<sqlMapGenerator targetPackage="com.zichan360.boot.sqlmap.master"-->
+        <!--targetProject="src/main/java">-->
+        <!--<property name="enableSubPackages" value="true"/>-->
+        <!--</sqlMapGenerator>-->
+
+        <!--如果生成注解不需要1和2任选一个，一个注解版，一个Xml版Sql -->
+        <!-- 1、生成DAO的包名和位置，注解Sql文件, 注解版Mapper文件与SqlProvider在一个文件夹-->
+        <javaClientGenerator type="ANNOTATEDMAPPER"
+                             targetPackage="com.zichan360.fica.mapper.case360"
+                             targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+        <!-- 2、生成DAO的包名和位置，Xml文件 -->
+        <!--<javaClientGenerator type="XMLMAPPER" targetPackage="com.zichan360.springbootserver.mapper.master"-->
+        <!--targetProject="src/main/java">-->
+        <!--<property name="enableSubPackages" value="true"/>-->
+        <!--</javaClientGenerator>-->
+
+        <!-- 要生成那些表(更改tableName和domainObjectName就可以，多个表的话复制table标签在后边排列即可) -->
+
+        <table tableName="collector_daily_performance" domainObjectName="CollectorDailyPerformance"
+               enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true"
+               enableSelectByExample="true" selectByExampleQueryId="true">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+
+        <!--<table tableName="repayment" domainObjectName="Repayment"-->
+        <!--enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true"-->
+        <!--enableSelectByExample="true" selectByExampleQueryId="true">-->
+        <!--<generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+        <!--</table>-->
+
+    </context>
+
+</generatorConfiguration>
