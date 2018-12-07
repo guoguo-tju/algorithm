@@ -23,7 +23,7 @@ public class getWeeksOfMonth {
 
     public static void main(String[] args) {
 
-        Map<Integer, WeekData> weeks = weeks(YearMonth.parse("2018-12"));
+        Map<Integer, WeekData> weeks = weeks(YearMonth.parse("2018-11"));
 
         for (Integer integer : weeks.keySet()) {
             System.out.println("第" + integer + "周");
