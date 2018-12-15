@@ -1,4 +1,4 @@
-package com.guoguo.datastructureandalgorithm.algorithm;
+package com.guoguo.datastructureandalgorithm.algorithm.workingUse;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b70b3219-3278-444b-89fb-dc5ebbaa4016" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/GetNElementFromArr.java" afterDir="false" />
+    <list default="true" id="b70b3219-3278-444b-89fb-dc5ebbaa4016" name="Default Changelist" comment="新增java中计算">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/isOverlap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/IsOverlap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/ComputePercetage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/workingUse/ComputePercetage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/GetNElementFromArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/workingUse/GetNElementFromArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/IsOverlap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/workingUse/IsOverlap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/SplitList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/workingUse/SplitList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/getWeeksOfMonth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/workingUse/getWeeksOfMonth.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,36 +22,52 @@
     <session id="1615648643">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="24" />
+          <entry key="md" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="24" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="2" />
-          <entry key="java" value="517" />
-          <entry key="txt" value="17" />
+          <entry key="dummy" value="12" />
+          <entry key="gitignore" value="12" />
+          <entry key="java" value="1984" />
+          <entry key="md" value="138" />
+          <entry key="txt" value="74" />
+          <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="517" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="JAVA" value="1984" />
+          <entry key="Markdown" value="138" />
+          <entry key="PLAIN_TEXT" value="98" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="26" />
         </counts>
       </usages-collector>
     </session>
@@ -55,45 +75,66 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/AlgorithmApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/dataStructure/array/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/GetNElementFromArr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="300">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#1376#1377#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <element signature="e#1461#1462#0" expanded="true" />
+                <element signature="e#1486#1487#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/IsOverlap.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/workingUse/getWeeksOfMonth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="97">
+              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/SplitList.java">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="150">
+                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/workingUse/IsOverlap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#523#532#0" expanded="true" />
-                <element signature="e#1031#1040#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/workingUse/GetNElementFromArr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-650">
+              <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -117,6 +158,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/getNElementFromArr.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/isOverlap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/SplitList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/ComputePercetage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/utils/DateUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/utils/BaseResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/utils/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/utils/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/utils/DowLoadFromAWS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/utils/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/getWeeksOfMonth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/dataStructure/array/Array.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -132,6 +186,11 @@
         <option name="mavenHome" value="D:/gzr/work/maven-3.3.9/apache-maven-3.3.9" />
         <option name="userSettingsFile" value="D:\gzr\work\maven-3.3.9\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -180,9 +239,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,7 +289,9 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructureandalgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,13 +302,23 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539939142647" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544870605235" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\多线程\algorithm\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\多线程\algorithm\src\main\resources" />
+      <recent name="C:\Users\Administrator\Desktop\多线程\algorithm\src\main\java\com\guoguo\datastructureandalgorithm\utils" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -266,13 +337,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsOverlap">
-    <configuration name="GetNElementFromArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guoguo.datastructureandalgorithm.algorithm.GetNElementFromArr" />
+  <component name="RunManager" selected="Application.getWeeksOfMonth">
+    <configuration name="ComputePercetage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guoguo.datastructureandalgorithm.algorithm.workingUse.ComputePercetage" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guoguo.datastructureandalgorithm.algorithm.*" />
+          <option name="PATTERN" value="com.guoguo.datastructureandalgorithm.algorithm.workingUse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetNElementFromArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guoguo.datastructureandalgorithm.algorithm.workingUse.GetNElementFromArr" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guoguo.datastructureandalgorithm.algorithm.workingUse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,11 +365,24 @@
       </method>
     </configuration>
     <configuration name="IsOverlap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guoguo.datastructureandalgorithm.algorithm.IsOverlap" />
+      <option name="MAIN_CLASS_NAME" value="com.guoguo.datastructureandalgorithm.algorithm.workingUse.IsOverlap" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guoguo.datastructureandalgorithm.algorithm.*" />
+          <option name="PATTERN" value="com.guoguo.datastructureandalgorithm.algorithm.workingUse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getWeeksOfMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guoguo.datastructureandalgorithm.algorithm.workingUse.getWeeksOfMonth" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guoguo.datastructureandalgorithm.algorithm.workingUse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,12 +406,16 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.AlgorithmApplication" />
+      <item itemvalue="Spring Boot.AlgorithmApplication (1)" />
       <item itemvalue="Application.GetNElementFromArr" />
       <item itemvalue="Application.IsOverlap" />
-      <item itemvalue="Spring Boot.AlgorithmApplication (1)" />
+      <item itemvalue="Application.ComputePercetage" />
+      <item itemvalue="Application.getWeeksOfMonth" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.getWeeksOfMonth" />
+        <item itemvalue="Application.ComputePercetage" />
         <item itemvalue="Application.IsOverlap" />
         <item itemvalue="Application.GetNElementFromArr" />
       </list>
@@ -334,7 +435,12 @@
       <workItem from="1539569467425" duration="653000" />
       <workItem from="1539655712207" duration="939000" />
       <workItem from="1539743563882" duration="781000" />
-      <workItem from="1539938839643" duration="302000" />
+      <workItem from="1539938839643" duration="384000" />
+      <workItem from="1540349193748" duration="7690000" />
+      <workItem from="1540521649473" duration="1807000" />
+      <workItem from="1544082590232" duration="3321000" />
+      <workItem from="1544179156799" duration="2213000" />
+      <workItem from="1544867127090" duration="3196000" />
     </task>
     <task id="LOCAL-00001" summary="新增判断两个区间是否重合的算法方法">
       <created>1539331541447</created>
@@ -343,27 +449,61 @@
       <option name="project" value="LOCAL" />
       <updated>1539331541447</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增splitList的两个方法">
+      <created>1539939175194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539939175194</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增java中计算百分比的方法">
+      <created>1540350707230</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540350707230</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增一些utils">
+      <created>1540353923519</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540353923519</updated>
+    </task>
+    <task id="LOCAL-00005" summary="获取一个月中每个周的开始日期和结束日期">
+      <created>1544087619678</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544087619678</updated>
+    </task>
+    <task id="LOCAL-00006" summary="...">
+      <created>1544184243130</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544184243130</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11591000" />
+    <option name="totallyTimeSpent" value="29900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24093264" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26165804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" weight="0.32968536" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32850942" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43270624" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30464482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -374,6 +514,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Run Dashboard" order="13" weight="0.32968536" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -393,7 +534,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增判断两个区间是否重合的算法方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增判断两个区间是否重合的算法方法" />
+    <MESSAGE value="新增splitList的两个方法" />
+    <MESSAGE value="新增java中计算百分比的方法" />
+    <MESSAGE value="新增一些utils" />
+    <MESSAGE value="获取一个月中每个周的开始日期和结束日期" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/AlgorithmApplication.java">
@@ -403,32 +549,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/GetNElementFromArr.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/math/RoundingMode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="532">
+          <caret line="218" column="4" selection-start-line="218" selection-start-column="4" selection-end-line="218" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/text/DecimalFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="398" column="24" selection-start-line="398" selection-start-column="11" selection-end-line="398" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/utils/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="277" column="38" selection-start-line="277" selection-start-column="38" selection-end-line="277" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/utils/BaseResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/utils/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="268" column="19" selection-start-line="268" selection-start-column="19" selection-end-line="268" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/maven配置私服settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5750">
+          <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/utils/DowLoadFromAWS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+          <folding>
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/workingUse/ComputePercetage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/IsOverlap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/dataStructure/array/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="300">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/SplitList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/workingUse/GetNElementFromArr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="-650">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/workingUse/getWeeksOfMonth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#523#532#0" expanded="true" />
-            <element signature="e#1031#1040#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/workingUse/IsOverlap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/workingUse/SplitList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="150">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
