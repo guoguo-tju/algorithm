@@ -2,6 +2,7 @@
 *.class
 *.iml
 *.xml
+*.mvn
 
 # Log file
 *.log
