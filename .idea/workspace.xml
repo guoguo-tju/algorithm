@@ -68,37 +68,40 @@
     <session id="345835905">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="3" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="5" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="871" />
-          <entry key="txt" value="11" />
+          <entry key="java" value="1276" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="871" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="JAVA" value="1276" />
+          <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
     </session>
@@ -141,17 +144,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/sort/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="600">
               <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/sort/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/leetCode/RemoveArrayDuplicates001.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/leetCode/MaxProfit002.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -218,6 +239,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/sort/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/leetCode/RemoveArrayDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/leetCode/RemoveArrayDuplicates001.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/leetCode/MaxProfit002.java" />
       </list>
     </option>
   </component>
@@ -336,21 +360,21 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datastructureandalgorithm" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550198495284" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550459842669" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -385,26 +409,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
+  <component name="RunManager" selected="Application.MaxProfit002">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.guoguo.datastructureandalgorithm.algorithm.sort.BubbleSort" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.guoguo.datastructureandalgorithm.algorithm.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComputePercetage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guoguo.datastructureandalgorithm.algorithm.workingUse.ComputePercetage" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guoguo.datastructureandalgorithm.algorithm.workingUse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,12 +436,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsOverlap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guoguo.datastructureandalgorithm.algorithm.workingUse.IsOverlap" />
+    <configuration name="MaxProfit002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guoguo.datastructureandalgorithm.algorithm.leetCode.MaxProfit002" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guoguo.datastructureandalgorithm.algorithm.workingUse.*" />
+          <option name="PATTERN" value="com.guoguo.datastructureandalgorithm.algorithm.leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveArrayDuplicates001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guoguo.datastructureandalgorithm.algorithm.leetCode.RemoveArrayDuplicates001" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guoguo.datastructureandalgorithm.algorithm.leetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -468,19 +492,19 @@
     <list>
       <item itemvalue="Spring Boot.AlgorithmApplication" />
       <item itemvalue="Spring Boot.AlgorithmApplication (1)" />
-      <item itemvalue="Application.IsOverlap" />
-      <item itemvalue="Application.ComputePercetage" />
       <item itemvalue="Application.getWeeksOfMonth" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.InsertionSort" />
+      <item itemvalue="Application.RemoveArrayDuplicates001" />
+      <item itemvalue="Application.MaxProfit002" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxProfit002" />
+        <item itemvalue="Application.RemoveArrayDuplicates001" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.getWeeksOfMonth" />
-        <item itemvalue="Application.ComputePercetage" />
-        <item itemvalue="Application.IsOverlap" />
       </list>
     </recent_temporary>
   </component>
@@ -505,7 +529,9 @@
       <workItem from="1544179156799" duration="2213000" />
       <workItem from="1544867127090" duration="3196000" />
       <workItem from="1550026098129" duration="4031000" />
-      <workItem from="1550197431072" duration="1063000" />
+      <workItem from="1550197431072" duration="1689000" />
+      <workItem from="1550199301507" duration="75000" />
+      <workItem from="1550456329206" duration="3510000" />
     </task>
     <task id="LOCAL-00001" summary="新增判断两个区间是否重合的算法方法">
       <created>1539331541447</created>
@@ -556,17 +582,24 @@
       <option name="project" value="LOCAL" />
       <updated>1550029030332</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="简单插入排序">
+      <created>1550198520680</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550198520680</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34994000" />
+    <option name="totallyTimeSpent" value="39205000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1616" height="916" extended-state="7" />
+    <frame x="1592" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2111399" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21049222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -575,7 +608,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43228453" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29274964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30464482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -612,7 +645,8 @@
     <MESSAGE value="获取一个月中每个周的开始日期和结束日期" />
     <MESSAGE value="..." />
     <MESSAGE value="新增冒泡排序和选择排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增冒泡排序和选择排序" />
+    <MESSAGE value="简单插入排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单插入排序" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/AlgorithmApplication.java">
@@ -750,6 +784,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/sort/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -771,17 +812,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/sort/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/leetCode/RemoveArrayDuplicates001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/leetCode/MaxProfit002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
         </state>
       </provider>
     </entry>
