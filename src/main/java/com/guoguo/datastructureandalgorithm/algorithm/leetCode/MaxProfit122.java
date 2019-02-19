@@ -21,7 +21,7 @@ package com.guoguo.datastructureandalgorithm.algorithm.leetCode;
  * @author: Karl Guo
  * @create: 2019-02-18 10:39
  **/
-public class MaxProfit002 {
+public class MaxProfit122 {
 
 
     public static void main(String[] args) {
