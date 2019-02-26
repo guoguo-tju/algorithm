@@ -18,6 +18,9 @@ import java.util.Arrays;
  * - 重复步骤3，直到找到已排序的元素小于或者等于新元素的位置；
  * - 将新元素插入到该位置后；
  * - 重复步骤2~5。
+ *
+ * https://www.cnblogs.com/onepixel/articles/7674659.html
+ *
  * @author: Karl Guo
  * @create: 2019-02-15 10:25
  **/
