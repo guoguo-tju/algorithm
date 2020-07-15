@@ -22,3 +22,4 @@
    * 将集合按规定个数分为n个集合 --  SplitList
    * 将集合均分成n个集合 -- SplitList
    * 手写线程池 -- ThreadPoolTest
+   * 手写消息队列 -- MQTest
