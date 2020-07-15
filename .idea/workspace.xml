@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a0103c6d-eb5b-4edd-9fe2-900f6ad7b394" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,17 +76,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3189" />
+          <entry key="java" value="3264" />
           <entry key="md" value="16" />
-          <entry key="txt" value="8" />
+          <entry key="txt" value="10" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3189" />
+          <entry key="JAVA" value="3264" />
           <entry key="Markdown" value="16" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PLAIN_TEXT" value="10" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -114,12 +112,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="372">
-                <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <first_editor relative-caret-position="328">
+                <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -142,11 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/Audition/MQTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            <state relative-caret-position="311">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1514#1515#0" expanded="true" />
@@ -230,8 +228,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/Audition/ThreadPoolTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/Audition/MQTest2.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/Audition/MQTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/Audition/MQTest.java" />
       </list>
     </option>
   </component>
@@ -346,7 +344,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594820924869" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594821464541" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -497,7 +495,7 @@
       <workItem from="1585403721321" duration="598000" />
       <workItem from="1585476523216" duration="595000" />
       <workItem from="1592659101265" duration="21000" />
-      <workItem from="1592660450471" duration="13076000" />
+      <workItem from="1592660450471" duration="13567000" />
     </task>
     <task id="LOCAL-00001" summary="leetCode练习题">
       <created>1550460212412</created>
@@ -527,12 +525,12 @@
       <option name="project" value="LOCAL" />
       <updated>1594736218188</updated>
     </task>
-    <task id="LOCAL-00005" summary="获取一个月中每个周的开始日期和结束日期">
-      <created>1544087619678</created>
+    <task id="LOCAL-00005" summary="手写MQ">
+      <created>1594820944532</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1544087619678</updated>
+      <updated>1594820944532</updated>
     </task>
     <task id="LOCAL-00006" summary="...">
       <created>1544184243130</created>
@@ -562,17 +560,17 @@
       <option name="project" value="LOCAL" />
       <updated>1550459874436</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29868000" />
+    <option name="totallyTimeSpent" value="30359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1577" height="1016" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24784626" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24784626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -581,7 +579,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34772182" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34772182" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30455637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -621,7 +619,8 @@
     <MESSAGE value="简单插入排序" />
     <MESSAGE value="leetCode练习题" />
     <MESSAGE value="手写一个线程池" />
-    <option name="LAST_COMMIT_MESSAGE" value="手写一个线程池" />
+    <MESSAGE value="手写MQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="手写MQ" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/workingUse/getWeeksOfMonth.java">
@@ -839,24 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/Audition/MQTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1514#1515#0" expanded="true" />
-            <element signature="e#1541#1542#0" expanded="true" />
-            <element signature="e#1595#1596#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1738#1739#0" expanded="true" />
-            <element signature="e#1765#1766#0" expanded="true" />
-            <element signature="e#1815#1816#0" expanded="true" />
-            <element signature="e#1859#1860#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/Audition/MQTest2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1059">
@@ -884,10 +865,28 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="372">
-            <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <first_editor relative-caret-position="328">
+            <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guoguo/datastructureandalgorithm/algorithm/Audition/MQTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#1622#1623#0" expanded="true" />
+            <element signature="e#1738#1739#0" expanded="true" />
+            <element signature="e#1765#1766#0" expanded="true" />
+            <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#1859#1860#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

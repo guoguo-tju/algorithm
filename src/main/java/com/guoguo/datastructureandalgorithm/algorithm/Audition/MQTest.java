@@ -94,21 +94,41 @@ public class MQTest {
     public static void main(String[] args) {
 
         Box box = new Box();
+//
+//        new Thread(()->{
+//            for (int i = 0 ; i < 100 ; i ++ ){
+//                Produce produce = new Produce(box);
+//                produce.put(i);
+//            }
+//        }).start();
+//
+//
+//        new Thread(()->{
+//            for (int i = 0 ; i < 100 ; i ++ ){
+//                Customer customer = new Customer(box);
+//                customer.get();
+//            }
+//        }).start();
 
-        new Thread(()->{
-            for (int i = 0 ; i < 100 ; i ++ ){
+        for (int i = 0 ; i < 100 ; i ++ ){
+            final int j = i;
+            new Thread(()->{
                 Produce produce = new Produce(box);
-                produce.put(i);
-            }
-        }).start();
+                produce.put(j);
+            }).start();
 
+        }
 
-        new Thread(()->{
-            for (int i = 0 ; i < 100 ; i ++ ){
+        for (int i = 0 ; i < 100 ; i ++ ){
+            final int j = i;
+            new Thread(()->{
                 Customer customer = new Customer(box);
                 customer.get();
-            }
-        }).start();
+            }).start();
+
+        }
+
+
     }
 
 
